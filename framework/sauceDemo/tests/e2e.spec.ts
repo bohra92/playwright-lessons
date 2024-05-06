@@ -5,7 +5,7 @@ let cartItemsBefore : number
 let cartItemsAfter : number
 let productList:Locator
 let products = ["Sauce Labs Backpack","Sauce Labs Bike Light","Sauce Labs Bolt T-Shirt","Sauce Labs Fleece Jacket", "Sauce Labs Onesie", "Test.allTheThings() T-Shirt (Red)"]
-let productsToAdd = ["Sauce Labs Backpack","Sauce Labs Bike Light"]
+let productsToAdd = ["Sauce Labs Backpack5","Sauce Labs Bike Light"]
 let page:Page
 const numbers = [1,2,3]
 
