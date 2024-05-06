@@ -1,0 +1,6 @@
+Sauce Labs Backpack
+//div[text()='Sauce Labs Backpack']/ancestor::div[@class='inventory_item_description']//button[text()='Add to cart']
+//div[text()='placeholder']/ancestor::div[@class='inventory_item_description']//button[text()='Add to cart']
+Sauce Labs Bike Light
+//div[text()='Sauce Labs Bike Light']/ancestor::div[@class='inventory_item_description']//button[text()='Add to cart']
+//div[text()='placeholder']/ancestor::div[@class='inventory_item_description']//button[text()='Add to cart']

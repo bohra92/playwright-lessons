@@ -1,0 +1,25 @@
+{
+  "name": "playwrighttutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed",
+    "iterate": "npx playwright test --grep @iterate --headed",
+    "google": "npx playwright test --grep @google --headed",
+    "allure-generate":"allure generate allure-results -o allure-report --clean",
+    "allure-open":"allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.11.30",
+    "allure-playwright": "^2.15.1",
+    "playwright-slack-report": "^1.1.72"
+  },
+  "dependencies": {
+    "allure": "^0.0.0"
+  }
+}
